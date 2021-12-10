@@ -16,7 +16,7 @@ Pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://github.com/artur-duart.png" width="100px;" alt="Foto do Artur Duarte no GitHub"/><br>
         <sub>
-          <b>Artur Duarte</b>
+          <b>Artur Duarte de Moraes</b>
         </sub>
       </a>
     </td>
@@ -24,7 +24,7 @@ Pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://github.com/cauamenezes.png" width="100px;" alt="Foto do Cauã Menezes no GitHub"/><br>
         <sub>
-          <b>Cauã Menezes</b>
+          <b>Cauã Menezes da Silva</b>
         </sub>
       </a>
     </td>
@@ -32,7 +32,7 @@ Pessoas que contribuíram para este projeto:
       <a href="#">
         <img src="https://github.com/pedrothecatholic.png" width="100px;" alt="Foto do Pedro H. de Sousa no GitHub"/><br>
         <sub>
-          <b>Pedro H. de Sousa</b>
+          <b>Pedro Henrique de Sousa</b>
         </sub>
       </a>
     </td>
