@@ -37,7 +37,7 @@ select {
   border-radius: 4px;
 }
 
-a {
+.produtos-container a {
   padding: 8px 16px;
   height: 40px;
   border-radius: 6px;
