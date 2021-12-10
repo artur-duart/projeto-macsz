@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Blog</title>
+    <title>Cadastro de Produto</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,15 +15,13 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
 
     <!-- CSS File -->
-    <link rel="stylesheet" type="text/css" href="styles/style-blog.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style-add-product.css" />
     <link rel="stylesheet" type="text/css" href="styles/global-styles.css" />
 </head>
 
 <body>
-
     <div class="super_container">
 
-        <!-- Header -->
         <header class="header trans_300">
             <!-- Navegação Principal -->
             <div class="main_nav_container">
@@ -39,7 +37,7 @@
                             <nav class="navbar">
                                 <ul class="navbar_menu">
                                     <li><a href="index.html" class="nav_link">Home</a></li>
-                                    <li><a href="index.html#produtos" class="nav_link">Produtos</a></li>
+                                    <li><a href="#produtos" class="nav_link">Produtos</a></li>
                                     <li><a href="blog.html" class="nav_link">Blog</a></li>
                                     <li><a href="contact-us.html" class="nav_link">Contatos</a></li>
                                 </ul>
@@ -57,6 +55,9 @@
                                             <span id="checkout_items" class="checkout_items">2</span>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="add-product.html"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                                    </li>
                                 </ul>
 
                                 <div class="hamburguer_container">
@@ -69,83 +70,72 @@
             </div>
         </header>
 
-        <!-- Banner -->
-        <section class="banner">
-            <img src="images/banner_blog.jpg" class="cover" alt="" srcset="">
-            <div class="contentBx">
-                <h2>Perfumes</h2>
-                <h4>Para usar durante o verão</h4>
-                <a href="#post" class="btn">Leia mais</a>
-            </div>
-        </section>
+        <div class="content">
+            <section class="produtos-container">
+                <main>
+                    <form class="form-produto">
+                        <h1>Cadastro de Produto</h1>
 
-        <!-- Post -->
-        <section class="about" id="post">
-            <div class="title">
-                <h2>Os Perfumes</h2>
-            </div>
+                        <div class="input-group span2">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" />
+                        </div>
+                        <!-- 
+                        <div class="input-group">
+                            <label for="categoria">Categoria</label>
+                            <input type="text" name="categoria" id="categoria" />
+                        </div> -->
 
-            <div class="contentBx">
-                <div class="content">
+                        <div class="input-group">
+                            <label for="preco">Preço</label>
+                            <input type="text" name="preco" id="preco" />
+                        </div>
 
-                    <p>A arte do perfume tem suas origens no Egito e remete ao ano de 2000 a.C. Naquele período, os
-                        primeiros a utilizarem os perfumes foram os faraós e membros que eram considerados importantes
-                        na corte. Após algum tempo, a utilização do perfume foi difundida em outras partes do país e
-                        levou a todos a possibilidade de aromatizar o ambiente árido e quente do deserto.
-                        Protagonizada em 1330 a.C., a primeira greve da humanidade foi organizada pelos soldados
-                        liderados pelo faraó Seti I que, sabendo sobre a necessidade das essências refrescantes na
-                        região, pararam o fornecimento dos unguentos aromáticos. Tempo depois, em 1300 a.C., peões de
-                        Tebas revoltaram-se contra a escassez de unguentos e somente foram contidos pelo faraó Ramsés
-                        II.
-                        Durante o século IX, um químico árabe conhecido como Alkindus escreveu um manuscrito a respeito
-                        da fabricação dos aromas intitulado "Livro da Química de Perfumes e Destilados". A obra
-                        apresentava diversas receitas de óleos das fragrâncias, águas aromáticas, salves ou imitações
-                        caras. A arte do perfume tem suas origens no Egito e remete ao ano de 2000 a.C. Naquele período,
-                        os primeiros a utilizarem os perfumes foram os faraós e membros que eram considerados
-                        importantes na corte. Após algum tempo, a utilização do perfume foi difundida em outras partes
-                        do país e levou a todos a possibilidade de aromatizar o ambiente árido e quente do deserto.
-                        Protagonizada em 1330 a.C., a primeira greve da humanidade foi organizada pelos soldados
-                        liderados pelo faraó Seti I que, sabendo sobre a necessidade das essências refrescantes na
-                        região, pararam o fornecimento dos unguentos aromáticos. Tempo depois, em 1300 a.C., peões de
-                        Tebas revoltaram-se contra a escassez de unguentos e somente foram contidos pelo faraó Ramsés
-                        II.
-                        Durante o século IX, um químico árabe conhecido como Alkindus escreveu um manuscrito a respeito
-                        da fabricação dos aromas intitulado "Livro da Química de Perfumes e Destilados". A obra
-                        apresentava diversas receitas de óleos das fragrâncias, águas aromáticas, salves ou imitações
-                        caras. <br> <br> A arte do perfume tem suas origens no Egito e remete ao ano de 2000 a.C.
-                        Naquele período, os primeiros a utilizarem os perfumes foram os faraós e membros que eram
-                        considerados importantes na corte. Após algum tempo, a utilização do perfume foi difundida em
-                        outras partes do país e levou a todos a possibilidade de aromatizar o ambiente árido e quente do
-                        deserto.
-                        Protagonizada em 1330 a.C., a primeira greve da humanidade foi organizada pelos soldados
-                        liderados pelo faraó Seti I que, sabendo sobre a necessidade das essências refrescantes na
-                        região, pararam o fornecimento dos unguentos aromáticos. Tempo depois, em 1300 a.C., peões de
-                        Tebas revoltaram-se contra a escassez de unguentos e somente foram contidos pelo faraó Ramsés
-                        II.
-                        Durante o século IX, um químico árabe conhecido como Alkindus escreveu um manuscrito a respeito
-                        da fabricação dos aromas intitulado "Livro da Química de Perfumes e Destilados". A obra
-                        apresentava diversas receitas de óleos das fragrâncias, águas aromáticas, salves ou imitações
-                        caras. A arte do perfume tem suas origens no Egito e remete ao ano de 2000 a.C. Naquele período,
-                        os primeiros a utilizarem os perfumes foram os faraós e membros que eram considerados
-                        importantes na corte. Após algum tempo, a utilização do perfume foi difundida em outras partes
-                        do país e levou a todos a possibilidade de aromatizar o ambiente árido e quente do deserto. A
-                        arte do perfume tem suas origens no Egito e remete ao ano de 2000 a.C. Naquele período, os
-                        primeiros a utilizarem os perfumes foram os faraós e membros que eram considerados importantes
-                        na corte. Após algum tempo, a utilização do perfume foi difundida em outras partes do país e
-                        levou a todos a possibilidade de aromatizar o ambiente árido e quente do deserto.
-                        Protagonizada em 1330 a.C., a primeira greve da humanidade foi organizada pelos soldados
-                        liderados pelo faraó Seti I que, sabendo sobre a necessidade das essências refrescantes na
-                        região, pararam o fornecimento dos unguentos aromáticos.</p>
-                </div>
+                        <div class="input-group">
+                            <label for="desconto">Desconto</label>
+                            <input type="text" name="desconto" id="desconto" />
+                        </div>
 
-                <div class="content">
-                    <div class="imgBx">
-                        <img src="images/blog_post.png" alt="" srcset="">
-                    </div>
-                </div>
+                        <div class="input-group">
+                            <label for="descricao">Descrição</label>
+                            <input type="text" name="descricao" id="descricao" />
+                        </div>
 
-            </div>
-        </section>
+                        <div class="input-group">
+                            <label for="quantidade">Quantidade</label>
+                            <input type="text" name="quantidade" id="quantidade" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="ingredientes">Ingredientes</label>
+                            <input type="text" name="ingredientes" id="ingredientes" />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="categoria">Categoria</label>
+                            <select id="categoria" name="categoria">
+                                <option value="">SELECIONE</option>
+                                <option value="">Perfumes</option>
+                                <option value="">Hidratantes</option>
+                                <option value="">Sabonetes</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="imagem">Imagem</label>
+                            <input type="file" name="imagem" id="image" accept="image/*" />
+                        </div>
+
+                        <div class="input-group hidden">
+                            <label for="imagem">Imagem</label>
+                            <input type="file" name="imagem" id="image" accept="image/*" />
+                        </div>
+                        <a href="index.html" class="btn-save">Salvar</a>
+                        <a href="index.html" class="btn-cancel">Cancelar</a>
+                    </form>
+                </main>
+            </section>
+        </div>
 
         <!-- Benefícios -->
         <div class="benefit">
@@ -267,18 +257,8 @@
                 </div>
             </div>
         </footer>
-    </div>
 
-    <!-- Arquivo jquery JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
-    <!-- Arquivo Isotope JS -->
-    <script src="plugins/Isotope/isotope.pkgd.min.js"></script>
-    <!-- Arquivo Javascript -->
-    <script src="js/custom.js"></script>
+    </div>
 </body>
 
 </html>
