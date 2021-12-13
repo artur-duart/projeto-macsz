@@ -214,6 +214,14 @@ h6 {
     text-align: center;
 }
 
+.input_header {
+    background-color: #000000;
+    border-radius: 6px;
+    border-color: #e53637;
+    color: #fff;
+    outline: none;
+}
+
 .navbar_user li a {
     display: flex;
     flex-direction: column;
@@ -475,6 +483,22 @@ h6 {
 
     h2 {
         font-size: 36px;
+    }
+
+    .input_header {
+        display: none;
+    }
+
+    .search_icon_header {
+        background-color: #e53637;
+        border-radius: 20px;
+    }
+
+    .search_icon_header:hover {
+    background-color: #000;
+    color: #e53637;
+    border: 1px solid #e53637;
+    transition: 0.3s;
     }
 
     .main_slider {

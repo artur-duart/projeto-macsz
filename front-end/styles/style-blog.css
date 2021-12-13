@@ -98,7 +98,7 @@ section {
     background: #000;
 }
 
-p {
+.content-p {
     color: #000 !important;
     font-weight: 300;
     text-align: justify;
