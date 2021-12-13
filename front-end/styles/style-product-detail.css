@@ -19,6 +19,10 @@
     display: block;
     padding: 5px 10px;
 }
+/* 
+.qtde-product {
+    margin-top: 50px;
+} */
 
 .sproduct input {
     width: 50px;
@@ -47,7 +51,7 @@
 }
 
 .margin {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 /* Chrome, Safari, Edge, Opera */
