@@ -217,9 +217,10 @@ h6 {
 .input_header {
     background-color: #000000;
     border-radius: 6px;
-    border-color: #e53637;
+    border-color: #fff;
     color: #fff;
     outline: none;
+    display: flex;
 }
 
 .navbar_user li a {
@@ -487,11 +488,6 @@ h6 {
 
     .input_header {
         display: none;
-    }
-
-    .search_icon_header {
-        background-color: #e53637;
-        border-radius: 20px;
     }
 
     .search_icon_header:hover {
